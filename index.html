@@ -1,0 +1,540 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unidhan IMF | Institutional Advisory</title>
+    <meta
+      name="description"
+      content="Unidhan Insurance Marketing (IMF) delivers multi-institution risk, investment, and liability advisory for HNI and retail clients."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                primary: "var(--brand-primary)",
+                secondary: "var(--brand-secondary)",
+                accent: "var(--brand-accent)",
+                ink: "var(--brand-ink)",
+                muted: "var(--brand-muted)",
+                surface: "var(--brand-surface)",
+                border: "var(--brand-border)",
+                highlight: "var(--brand-highlight)",
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body class="bg-white text-brand-ink">
+    <div class="bg-brand-primary text-white text-base">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-2">
+        <span>Unidhan Insurance Marketing (IMF)</span>
+        <span class="hidden items-center gap-4 md:flex">
+          <span>Call:  0422-314822</span>
+          <span>Email: unidhan.sales@gmail.com</span>
+        </span>
+      </div>
+    </div>
+
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        <a href="index.html" class="flex items-center gap-3">
+          <span class="icon-pill">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              class="h-6 w-6"
+            >
+              <path d="M12 3l7 4v5c0 4-3 7-7 9-4-2-7-5-7-9V7l7-4z" />
+              <path d="M9 12l2 2 4-4" />
+            </svg>
+          </span>
+          <div>
+            <p class="font-display text-lg">Unidhan IMF</p>
+            <p class="text-xs text-brand-muted">Institutional Advisory</p>
+          </div>
+        </a>
+
+        <nav class="hidden items-center gap-6 text-base font-semibold md:flex">
+          <a href="index.html" class="text-brand-primary" aria-current="page">Home</a>
+          <a href="about.html" class="hover:text-brand-primary">About</a>
+          <a href="services.html" class="hover:text-brand-primary">Services</a>
+          <a href="education.html" class="hover:text-brand-primary">Education</a>
+          <a href="contact.html" class="hover:text-brand-primary">Contact</a>
+          <a href="#lead-hero" class="btn-primary">Schedule a Review</a>
+        </nav>
+
+        <button
+          class="md:hidden"
+          data-mobile-toggle
+          aria-expanded="false"
+          aria-label="Open menu"
+        >
+          <svg viewBox="0 0 24 24" class="h-7 w-7" fill="none" stroke="currentColor" stroke-width="1.6">
+            <path d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="hidden border-t border-brand" data-mobile-menu>
+        <div class="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-6 text-base font-semibold">
+          <a href="index.html" class="text-brand-primary">Home</a>
+          <a href="about.html" class="hover:text-brand-primary">About</a>
+          <a href="services.html" class="hover:text-brand-primary">Services</a>
+          <a href="education.html" class="hover:text-brand-primary">Education</a>
+          <a href="contact.html" class="hover:text-brand-primary">Contact</a>
+          <a href="#lead-hero" class="btn-primary w-fit">Schedule a Review</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-gradient">
+        <div class="mx-auto grid max-w-6xl grid-cols-1 gap-10 px-6 py-16 lg:grid-cols-[1.1fr_0.9fr]">
+          <div class="space-y-6">
+            <span class="tag">Advisory-first | Multi-institution</span>
+            <h1 class="font-display text-4xl leading-tight text-brand-ink md:text-5xl">
+              Institutional Breadth. Singular Accountability.
+            </h1>
+            <p class="text-lg text-brand-muted">
+              Multi-institution risk, investment & liability advisory across insurers, lenders and
+              capital strategies.
+            </p>
+            <div class="flex flex-wrap gap-4">
+              <a href="#lead-hero" class="btn-primary" data-topic="Comprehensive Review">
+                Schedule a Review
+              </a>
+              <a href="#lead-hero" class="btn-secondary" data-topic="30-Min Introduction">
+                Book a 30-Min Introduction
+              </a>
+            </div>
+            <div class="grid gap-4 rounded-2xl border border-brand bg-white p-6 shadow-sm md:grid-cols-3">
+              <div>
+                <p class="text-sm text-brand-muted">Coverage Access</p>
+                <p class="text-xl font-semibold">15+ insurers</p>
+              </div>
+              <div>
+                <p class="text-sm text-brand-muted">Capital Networks</p>
+                <p class="text-xl font-semibold">20+ lenders</p>
+              </div>
+              <div>
+                <p class="text-sm text-brand-muted">Review Cadence</p>
+                <p class="text-xl font-semibold">Quarterly touchpoints</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card lg:sticky lg:top-28" id="lead-hero">
+            <h2 class="font-display text-2xl">Schedule a Review</h2>
+            <p class="text-sm text-brand-muted">
+              Confidential, advisory-led review across protection, investment and liabilities.
+            </p>
+            <form class="mt-6 space-y-4" data-lead-form>
+              <div>
+                <label class="text-sm font-semibold">Name</label>
+                <input class="input" name="name" type="text" placeholder="Full name" />
+                <p class="field-error hidden"></p>
+              </div>
+              <div>
+                <label class="text-sm font-semibold">Mobile</label>
+                <input class="input" name="mobile" type="tel" placeholder="10-digit mobile" />
+                <p class="field-error hidden"></p>
+              </div>
+              <div>
+                <label class="text-sm font-semibold">Email</label>
+                <input class="input" name="email" type="email" placeholder="name@email.com" />
+                <p class="field-error hidden"></p>
+              </div>
+              <div>
+                <label class="text-sm font-semibold">Preferred review topic</label>
+                <select class="input" name="topic">
+                  <option value="">Select topic</option>
+                  <option value="Comprehensive Review">Comprehensive Review</option>
+                  <option value="Risk Protection">Risk Protection</option>
+                  <option value="Investment Alignment">Investment Alignment</option>
+                  <option value="Liability Efficiency">Liability Efficiency</option>
+                  <option value="30-Min Introduction">30-Min Introduction</option>
+                </select>
+                <p class="field-error hidden"></p>
+              </div>
+              <p class="text-xs text-brand-muted">We respect your privacy.</p>
+              <div class="flex items-center gap-3">
+                <button class="btn-primary w-full" type="submit">Submit</button>
+              </div>
+              <div class="hidden" data-form-status></div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+            <div>
+              <span class="tag">What We Do</span>
+              <h2 class="font-display text-3xl">Integrated advisory across life stages</h2>
+            </div>
+            <a href="services.html" class="btn-secondary w-fit">Explore Services</a>
+          </div>
+
+          <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+            <div class="card">
+              <div class="icon-pill">
+                <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <path d="M12 3l7 4v5c0 4-3 7-7 9-4-2-7-5-7-9V7l7-4z" />
+                </svg>
+              </div>
+              <h3 class="mt-4 text-lg font-semibold">Risk Protection Review</h3>
+              <p class="text-sm text-brand-muted">
+                Health, term, motor, SME and commercial coverage evaluated for gaps and overlaps.
+              </p>
+              <a href="services.html" class="mt-4 inline-flex text-sm font-semibold text-brand-primary">Learn More</a>
+            </div>
+
+            <div class="card">
+              <div class="icon-pill">
+                <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <path d="M3 12h6l3-6 3 12 3-6h3" />
+                </svg>
+              </div>
+              <h3 class="mt-4 text-lg font-semibold">Investments & Capital Alignment</h3>
+              <p class="text-sm text-brand-muted">
+                Mutual funds, equity and structured allocations designed to preserve and grow capital.
+              </p>
+              <a href="services.html" class="mt-4 inline-flex text-sm font-semibold text-brand-primary">Learn More</a>
+            </div>
+
+            <div class="card">
+              <div class="icon-pill">
+                <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <path d="M4 10h16M4 14h10" />
+                  <rect x="3" y="6" width="18" height="12" rx="2" />
+                </svg>
+              </div>
+              <h3 class="mt-4 text-lg font-semibold">Liability Advisory</h3>
+              <p class="text-sm text-brand-muted">
+                Loans, mortgages and credit optimization aligned to cash flow, duration and risk.
+              </p>
+              <a href="services.html" class="mt-4 inline-flex text-sm font-semibold text-brand-primary">Learn More</a>
+            </div>
+
+            <div class="card">
+              <div class="icon-pill">
+                <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <path d="M5 12h14" />
+                  <path d="M12 5v14" />
+                  <circle cx="12" cy="12" r="9" />
+                </svg>
+              </div>
+              <h3 class="mt-4 text-lg font-semibold">Structured Financial Planning</h3>
+              <p class="text-sm text-brand-muted">
+                Long-term outcomes, scenario modeling and periodic review cadence.
+              </p>
+              <a href="services.html" class="mt-4 inline-flex text-sm font-semibold text-brand-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad bg-brand-surface">
+        <div class="mx-auto grid max-w-6xl grid-cols-1 gap-10 px-6 lg:grid-cols-[0.9fr_1.1fr]">
+          <div>
+            <span class="tag">Why Choose Us</span>
+            <h2 class="font-display text-3xl">Advisory discipline that compounds trust</h2>
+            <p class="mt-4 text-brand-muted">
+              Unidhan IMF operates as a single accountable partner across insurers, lenders and
+              investment avenues. Our advisory process is built for clarity: we review risk, capital
+              and liabilities together, not in silos. Each recommendation is structured, documented
+              and aligned to outcomes, enabling clients to make decisions with confidence and to
+              review them over time. This is a governance-led advisory relationship, not a product
+              sales engagement.
+            </p>
+          </div>
+          <div class="card">
+            <ul class="space-y-4 text-sm font-semibold">
+              <li class="flex items-start gap-3">
+                <span class="icon-pill">
+                  <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.6">
+                    <path d="M5 12l4 4L19 6" />
+                  </svg>
+                </span>
+                Multi-insurer, multi-lender access
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="icon-pill">
+                  <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.6">
+                    <path d="M5 12l4 4L19 6" />
+                  </svg>
+                </span>
+                Independent, unbiased advisory framework
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="icon-pill">
+                  <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.6">
+                    <path d="M5 12l4 4L19 6" />
+                  </svg>
+                </span>
+                Structured reviews, not product pushing
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="icon-pill">
+                  <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.6">
+                    <path d="M5 12l4 4L19 6" />
+                  </svg>
+                </span>
+                Single-point accountability for outcomes
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="icon-pill">
+                  <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.6">
+                    <path d="M5 12l4 4L19 6" />
+                  </svg>
+                </span>
+                Compliance and documentation discipline
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+            <div>
+              <span class="tag">How We Work</span>
+              <h2 class="font-display text-3xl">A structured, five-step process</h2>
+            </div>
+            <a href="contact.html" class="btn-secondary w-fit">Discuss Your Goals</a>
+          </div>
+
+          <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-5">
+            <div class="card text-sm">
+              <p class="text-xs text-brand-muted">Step 1</p>
+              <h3 class="mt-2 text-base font-semibold">Understand your goals</h3>
+              <p class="text-brand-muted">We align on outcomes, timelines and constraints.</p>
+            </div>
+            <div class="card text-sm">
+              <p class="text-xs text-brand-muted">Step 2</p>
+              <h3 class="mt-2 text-base font-semibold">Conduct structured risk analysis</h3>
+              <p class="text-brand-muted">Coverage adequacy and exposure mapping.</p>
+            </div>
+            <div class="card text-sm">
+              <p class="text-xs text-brand-muted">Step 3</p>
+              <h3 class="mt-2 text-base font-semibold">Review portfolios and liabilities</h3>
+              <p class="text-brand-muted">Investment allocation and debt efficiency review.</p>
+            </div>
+            <div class="card text-sm">
+              <p class="text-xs text-brand-muted">Step 4</p>
+              <h3 class="mt-2 text-base font-semibold">Present holistic recommendations</h3>
+              <p class="text-brand-muted">Integrated recommendations with clear rationale.</p>
+            </div>
+            <div class="card text-sm">
+              <p class="text-xs text-brand-muted">Step 5</p>
+              <h3 class="mt-2 text-base font-semibold">Follow-up & periodic re-review</h3>
+              <p class="text-brand-muted">Governance and periodic rebalancing.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad bg-brand-highlight" id="lead-mid">
+        <div class="mx-auto grid max-w-6xl grid-cols-1 gap-8 px-6 lg:grid-cols-[1fr_1fr]">
+          <div>
+            <span class="tag">Lead Capture</span>
+            <h2 class="font-display text-3xl">Request a structured review</h2>
+            <p class="mt-3 text-brand-muted">
+              Receive an objective assessment of risk coverage, investment alignment and liability
+              efficiency. We will guide you through a clear next-step roadmap.
+            </p>
+          </div>
+          <div class="card">
+            <form class="space-y-4" data-lead-form>
+              <div>
+                <label class="text-sm font-semibold">Name</label>
+                <input class="input" name="name" type="text" placeholder="Full name" />
+                <p class="field-error hidden"></p>
+              </div>
+              <div>
+                <label class="text-sm font-semibold">Mobile</label>
+                <input class="input" name="mobile" type="tel" placeholder="10-digit mobile" />
+                <p class="field-error hidden"></p>
+              </div>
+              <div>
+                <label class="text-sm font-semibold">Email</label>
+                <input class="input" name="email" type="email" placeholder="name@email.com" />
+                <p class="field-error hidden"></p>
+              </div>
+              <div>
+                <label class="text-sm font-semibold">Preferred review topic</label>
+                <select class="input" name="topic">
+                  <option value="">Select topic</option>
+                  <option value="Risk Protection">Risk Protection</option>
+                  <option value="Investment Alignment">Investment Alignment</option>
+                  <option value="Liability Efficiency">Liability Efficiency</option>
+                  <option value="Structured Planning">Structured Planning</option>
+                </select>
+                <p class="field-error hidden"></p>
+              </div>
+              <p class="text-xs text-brand-muted">We respect your privacy.</p>
+              <button class="btn-primary w-full" type="submit">Request Review</button>
+              <div class="hidden" data-form-status></div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+            <div>
+              <span class="tag">Education</span>
+              <h2 class="font-display text-3xl">Advisory insights & principles</h2>
+            </div>
+            <a href="education.html" class="btn-secondary w-fit">Read Education</a>
+          </div>
+          <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div class="card">
+              <h3 class="text-lg font-semibold">What is financial advisory?</h3>
+              <p class="text-sm text-brand-muted">
+                Learn how structured advisory aligns protection, capital and liabilities to outcomes.
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="text-lg font-semibold">Why multi-institution matters</h3>
+              <p class="text-sm text-brand-muted">
+                Diversified access provides better pricing, coverage and strategic flexibility.
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="text-lg font-semibold">Loan structuring principles</h3>
+              <p class="text-sm text-brand-muted">
+                Manage duration, cash-flow fit and risk for optimized liabilities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad hidden" id="testimonials">
+        <div class="mx-auto max-w-6xl px-6">
+          <span class="tag">Testimonials</span>
+          <h2 class="font-display text-3xl">Case studies & client feedback</h2>
+          <p class="text-brand-muted">Section reserved for future content.</p>
+        </div>
+      </section>
+
+      <section class="section-pad hidden" id="faq">
+        <div class="mx-auto max-w-6xl px-6">
+          <span class="tag">FAQ</span>
+          <h2 class="font-display text-3xl">Frequently asked questions</h2>
+          <div class="mt-6 space-y-4">
+            <div class="card">
+              <h3 class="font-semibold">Why choose an IMF?</h3>
+              <p class="text-sm text-brand-muted">
+                An IMF provides regulated, multi-institution access and advisory governance.
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="font-semibold">How is Unidhan different from a single agent?</h3>
+              <p class="text-sm text-brand-muted">
+                We deliver an unbiased, documented review across protection, investment and liability.
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="font-semibold">What is the review process?</h3>
+              <p class="text-sm text-brand-muted">
+                We follow a five-step process covering goals, analysis, recommendations and follow-up.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-brand-primary text-white">
+      <div class="mx-auto grid max-w-6xl grid-cols-1 gap-10 px-6 py-12 md:grid-cols-4">
+        <div>
+          <h3 class="font-display text-xl">Unidhan IMF</h3>
+          <p class="mt-3 text-sm text-white/80">
+            Institutional advisory partner for insurance, investments and liability management.
+          </p>
+        </div>
+        <div>
+          <h4 class="text-sm font-semibold uppercase text-white/70">Quick Links</h4>
+          <ul class="mt-4 space-y-2 text-sm">
+            <li><a href="about.html" class="hover:text-white">About</a></li>
+            <li><a href="services.html" class="hover:text-white">Services</a></li>
+            <li><a href="education.html" class="hover:text-white">Education</a></li>
+            <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-sm font-semibold uppercase text-white/70">Compliance</h4>
+          <p class="mt-4 text-sm text-white/80">
+            Disclaimer: Information on this website is for educational purposes and does not
+            constitute an offer, solicitation, or financial advice. Product terms and underwriting are
+            subject to insurer/lender policies.
+          </p>
+        </div>
+        <div>
+          <h4 class="text-sm font-semibold uppercase text-white/70">Quick Review</h4>
+          <form class="mt-4 space-y-3 text-sm" data-lead-form>
+            <div>
+              <input class="input" name="name" type="text" placeholder="Name" />
+              <p class="field-error hidden"></p>
+            </div>
+            <div>
+              <input class="input" name="mobile" type="tel" placeholder="Mobile" />
+              <p class="field-error hidden"></p>
+            </div>
+            <div>
+              <input class="input" name="email" type="email" placeholder="Email" />
+              <p class="field-error hidden"></p>
+            </div>
+            <div>
+              <select class="input" name="topic">
+                <option value="">Review topic</option>
+                <option value="Risk Protection">Risk Protection</option>
+                <option value="Investment Alignment">Investment Alignment</option>
+                <option value="Liability Efficiency">Liability Efficiency</option>
+              </select>
+              <p class="field-error hidden"></p>
+            </div>
+            <p class="text-xs text-white/70">We respect your privacy.</p>
+            <button class="btn-secondary w-full" type="submit">Request Call</button>
+            <div class="hidden" data-form-status></div>
+          </form>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-6 py-6 text-xs text-white/70 md:flex-row">
+        <span>© 2026 Unidhan Insurance Marketing (IMF). All rights reserved.</span>
+        <span>Privacy | Terms | Compliance</span>
+      </div>
+    </footer>
+
+    <div class="sticky-cta hidden" data-sticky-cta>
+      <p class="text-sm font-semibold">Ready for a structured review?</p>
+      <p class="text-xs text-brand-muted">Book a 30-min introduction.</p>
+      <a href="#lead-hero" class="btn-primary mt-3 block text-center" data-topic="30-Min Introduction">
+        Book Now
+      </a>
+    </div>
+
+    <script src="assets/app.js" defer></script>
+  </body>
+</html>
