@@ -1,4 +1,4 @@
-const mobileToggle = document.querySelector("[data-mobile-toggle]");
+﻿const mobileToggle = document.querySelector("[data-mobile-toggle]");
 const mobileMenu = document.querySelector("[data-mobile-menu]");
 
 if (mobileToggle && mobileMenu) {

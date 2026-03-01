@@ -1,12 +1,12 @@
-:root {
-  --brand-primary: #0b4f9c;
-  --brand-secondary: #1596d8;
-  --brand-accent: #f5b301;
-  --brand-ink: #0f1f2e;
-  --brand-muted: #5a6b7c;
-  --brand-surface: #f6f9fc;
-  --brand-border: #dbe5f1;
-  --brand-highlight: #eaf4ff;
+﻿:root {
+  --brand-primary: #0a2d57;
+  --brand-secondary: #1c5fa8;
+  --brand-accent: #f4b91e;
+  --brand-ink: #0c1c2e;
+  --brand-muted: #546277;
+  --brand-surface: #f7f9fc;
+  --brand-border: #d8e1ee;
+  --brand-highlight: #fef7e6;
 }
 
 * {
@@ -89,7 +89,7 @@ body {
 }
 
 .hero-gradient {
-  background: linear-gradient(120deg, #eef6ff 0%, #ffffff 50%, #e3f1ff 100%);
+  background: linear-gradient(120deg, #f4f8ff 0%, #ffffff 45%, #fef7e6 100%);
 }
 
 .card {
