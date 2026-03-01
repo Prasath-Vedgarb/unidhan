@@ -36,35 +36,32 @@
   </head>
   <body class="bg-white text-brand-ink">
     <div class="bg-brand-primary text-white text-base">
-      <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-2">
-        <span>Unidhan Insurance Marketing (IMF)</span>
-        <span class="hidden items-center gap-4 md:flex">
-          <span>Call:  0422-314822</span>
-          <span>Email: unidhan.sales@gmail.com</span>
-        </span>
-      </div>
+  <div class="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-2 md:flex-row md:items-center md:justify-between">
+    <div class="flex flex-col gap-1 text-sm md:text-base">
+      <span>An MSME Registered Company</span>
+      <span>IRDAI Regn: IMF10361220250903 | MSME UDYAM Regn: UDYAM-TN-03-0292567</span>
     </div>
+    <div class="flex flex-wrap items-center gap-4 text-sm md:text-base">
+      <a href="tel:0422314822" class="hover:text-white">Call: 0422-314822</a>
+      <a href="mailto:unidhan.sales@gmail.com" class="hover:text-white">Email: unidhan.sales@gmail.com</a>
+      <a href="https://wa.me/7826041647" target="_blank" rel="noopener" class="hover:text-white">WhatsApp: 7826041647</a>
+    </div>
+  </div>
+</div>
 
     <header class="sticky top-0 z-40 bg-white/95 backdrop-blur">
       <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="index.html" class="flex items-center gap-3">
-          <span class="icon-pill">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.6"
-              class="h-6 w-6"
-            >
-              <path d="M12 3l7 4v5c0 4-3 7-7 9-4-2-7-5-7-9V7l7-4z" />
-              <path d="M9 12l2 2 4-4" />
-            </svg>
-          </span>
-          <div>
-            <p class="font-display text-lg">Unidhan IMF</p>
-            <p class="text-xs text-brand-muted">Institutional Advisory</p>
-          </div>
-        </a>
+  <img
+    src="images/logo.jpeg"
+    alt="Unidhan IMF logo"
+    class="h-12 w-12 rounded-full border border-brand object-contain bg-white"
+  />
+  <div>
+    <p class="font-display text-lg">Unidhan IMF</p>
+    <p class="text-xs text-brand-muted">Unified Financial Planner</p>
+  </div>
+</a>
 
         <nav class="hidden items-center gap-6 text-base font-semibold md:flex">
           <a href="index.html" class="hover:text-brand-primary">Home</a>
@@ -103,7 +100,7 @@
       <section class="hero-gradient">
         <div class="mx-auto max-w-6xl px-6 py-16">
           <span class="tag">Contact</span>
-          <h1 class="font-display text-4xl">Let’s schedule your advisory review</h1>
+          <h1 class="font-display text-3xl sm:text-4xl">Let’s schedule your advisory review</h1>
           <p class="mt-4 max-w-2xl text-lg text-brand-muted">
             Reach us for a structured review, documentation assistance or advisory consultation.
           </p>
@@ -116,15 +113,20 @@
             <div class="card">
               <h2 class="font-display text-2xl">Office Address</h2>
               <p class="mt-3 text-brand-muted">
-                Unidhan IMF, Financial District, Mumbai, Maharashtra 400001
+                65/87, Ist floor, Masakalipalayam Road, Balan Nagar, Peelamedu Coimbatore Tamil Nadu 641004
               </p>
-              <p class="mt-2 text-sm text-brand-muted">(Update with your official address)</p>
+              <!-- <p class="mt-2 text-sm text-brand-muted">(Update with your official address)</p> -->
             </div>
             <div class="card">
               <h3 class="text-lg font-semibold">Contact</h3>
-              <p class="mt-3 text-brand-muted">Phone:  0422-314822</p>
+              <p class="mt-3 text-brand-muted">Phone: 0422-314822</p>
               <p class="text-brand-muted">Email: unidhan.sales@gmail.com</p>
-              <p class="text-brand-muted">Support: support@unidhanimf.com</p>
+              <p class="text-brand-muted">
+                WhatsApp:
+                <a href="https://wa.me/7826041647" target="_blank" rel="noopener" class="text-brand-primary hover:underline">
+                  7826041647
+                </a>
+              </p>
             </div>
             <div class="card">
               <h3 class="text-lg font-semibold">Operating Hours</h3>
@@ -163,12 +165,16 @@
                 <div>
                   <label class="text-sm font-semibold">Preferred review topic</label>
                   <select class="input" name="topic">
-                    <option value="">Select topic</option>
-                    <option value="Risk Protection">Risk Protection</option>
-                    <option value="Investment Alignment">Investment Alignment</option>
-                    <option value="Liability Efficiency">Liability Efficiency</option>
-                    <option value="Structured Planning">Structured Planning</option>
-                  </select>
+  <option value="">Select topic</option>
+  <option value="Health Insurance">Health Insurance</option>
+  <option value="Personal Loans">Personal Loans</option>
+  <option value="Housing Loans">Housing Loans</option>
+  <option value="Vehicle Loans">Vehicle Loans</option>
+  <option value="Debt Consolidation">Debt Consolidation</option>
+  <option value="Pension Plan">Pension Plan</option>
+  <option value="Tax Planning">Tax Planning</option>
+  <option value="Comprehensive Review">Comprehensive Review</option>
+</select>
                   <p class="field-error hidden"></p>
                 </div>
                 <p class="text-xs text-brand-muted">We respect your privacy.</p>
@@ -182,7 +188,7 @@
               <div class="mt-4 overflow-hidden rounded-2xl border border-brand">
                 <iframe
                   title="Unidhan IMF Map"
-                  src="https://www.google.com/maps?q=Mumbai&output=embed"
+                  src="https://www.google.com/maps?q=65%2F87%2C%20Ist%20floor%2C%20Masakalipalayam%20Road%2C%20Balan%20Nagar%2C%20Peelamedu%20Coimbatore%20Tamil%20Nadu%20641004&output=embed"
                   width="100%"
                   height="280"
                   style="border: 0"
@@ -190,6 +196,14 @@
                   loading="lazy"
                 ></iframe>
               </div>
+              <a
+                href="https://maps.app.goo.gl/h6umFm6MZQ1RFQqw7"
+                target="_blank"
+                rel="noopener"
+                class="mt-3 inline-flex text-sm font-semibold text-brand-primary"
+              >
+                Open in Google Maps
+              </a>
             </div>
           </div>
         </div>
